@@ -125,12 +125,13 @@ class AppTheme {
           ),
         ),
       ),
-      cardTheme: CardTheme(
+      cardTheme: CardThemeData(
         color: _surface,
         elevation: 0,
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(18)),
         margin: EdgeInsets.zero,
       ),
+      dialogTheme: const DialogThemeData(backgroundColor: _surface),
       inputDecorationTheme: InputDecorationTheme(
         filled: true,
         fillColor: _surface,

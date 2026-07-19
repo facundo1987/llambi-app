@@ -7,10 +7,10 @@ class BrandLogo extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       mainAxisSize: MainAxisSize.min,
-      children: const [
-        Icon(Icons.storefront, size: 72),
-        SizedBox(height: 12),
-        Text(
+      children: [
+        Image.asset('logo.png', width: 88, height: 88, fit: BoxFit.contain),
+        const SizedBox(height: 16),
+        const Text(
           'Llambi',
           style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
         ),
